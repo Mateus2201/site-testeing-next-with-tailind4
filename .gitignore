@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+nx-debug.log*
+
+# Editor e Sistema Operacional
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Dependências do Next.js
+.next/
+out/
+.cache/
+
+# Ambiente e configurações sensíveis
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build e arquivos gerados
+build/
+dist/
+*.log
+
+# Arquivos de lock (dependendo do gerenciador de pacotes usado)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Tailwind
+.postcssrc
