@@ -41,5 +41,10 @@ package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
+
 # Tailwind
 .postcssrc
+
+# Prisma
+prisma/migrations/
+prisma/dev.db
