@@ -6,17 +6,22 @@ import { React } from 'react'
 export default function Page() {
     const router = useRouter()
     
-    return <main>
-        <section classname="h-1/2 bg-black">
-        <div class="bg-primary text-white font-sans p-4">
-            yesye
-        </div>
-
+    return <main className='d-flex'>
+        <section className="container bg-primary vh-100 d-flex">
+            teste
 
         </section>
-        <button type="button" onClick={() => router.push('/login')}>
-            Login
-        </button>
+        <section className="container bg-secondary vh-100 d-flex flex-column justify-content-center align-items-center">
+            <div>
+                testw
+            </div>
+            <div>
+                <button type="button" className='h-25' onClick={() => router.push('/login')}>
+                    Login
+                </button>
+            </div>
+        </section>
+        
     </main>
 }
 

@@ -1,12 +1,10 @@
 {
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.6",
-    "autoprefixer": "^10.4.20",
+    "bootstrap": "^5.3.3",
     "next": "^15.1.7",
-    "postcss": "^8.5.2",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tailwindcss": "^4.0.6"
+    "react-dom": "^19.0.0"
   },
   "scripts": {
     "dev": "next dev",
